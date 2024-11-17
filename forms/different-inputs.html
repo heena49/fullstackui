@@ -65,13 +65,47 @@
                 <label for="search">choose here:</label>
                 <input type="search" name="search" id="search">
             </div><br>
+            <!--RadioButtom : in radiobutton the input come after label & radio buttons are used when we have to choose single choice-->
+            <div>
+                <label>choose your gender: </label>
+                <input type="radio" name="gender" value="m" id="m">
+                <label for="m">male</label>
+                <input type="radio" name="gender" value="f" id="f">
+                <label for="f">female</label>
+             </div><br>
+            <div>
+                 <label>select your option:</label>
+                 <input type="radio" name="option" id="option">
+                 <label for="option">True</label>
+                 <input type="radio" name="option" id="option">
+                 <label for="option">False</label>
+            </div><br>
+            <!--Checkboxes -are used when we need to select multiple elements/chices or if only one choice-->
+            <div>
+                <label>Languages Known:</label>
+                 <input type="checkbox" name="lang" id="en" value="en">
+                 <label for="en">English</label>
+                 <input type="checkbox" name="lang" id="te" value="te">
+                 <label for="Te">Telugu</label>
+                 <input type="checkbox" name="lang" id="Hi" value="Hi">
+                 <label for="Hi">Hindi</label>
+            </div><br>
+            <!--Dropdown-->
+           <div>
+              <label>select media:</label>
+              <select name="social media" id="socialmedia">
+                 <option value="instagram">instagram</option>
+                 <option value="facebook">facebook</option>
+                 <option value="Twitter">Twitter</option>
+               </select>
+            </div><br><br><br><br>
             <div>
                 <input type="hidden" name="secrect" value="heena">
                 <input type="submit" value="submit">
                 <input type="reset" value="reset">
                 <input type="button" value="submit">
             </div><br>
-
+            
         </fieldset>
 
     </form>
