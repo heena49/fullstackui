@@ -1,0 +1,39 @@
+h1{
+    background-color: gold;color: brown;
+    }
+    
+    .good{
+        background-color: hotpink;color: chartreuse;
+    }
+    
+    #nice{
+        background-color: chartreuse;color: hotpink;
+    }
+    
+    /* direct child */
+    /* div>a{  /* a who is direct child of div */
+      /*color: rgb(255, 0, 0);
+    }*/
+    
+    /* descedant child */
+    /*div a {
+    color: black;
+    }*/
+    
+    /* descedant child */
+    /*div a{
+        color: green;
+    }*/
+    
+    /* immediate sibling */
+    /*p+h2{
+        color: coral;
+    }*/
+    
+    /* *{
+        color: orchid;
+    }*/
+    
+    h2~p{
+        color: magenta;
+    }
