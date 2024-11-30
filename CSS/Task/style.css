@@ -1,33 +1,33 @@
 *{
     margin: 0%;
     padding: 0%;
+    background-color:rgb(157, 210, 51)
 }
 
 img{
     height: 280px;
-    width: 200px;
-    border: 2px solid black;
+    width: 255px;
+    border: 2px solid orangered;
 }
 .card{
-    background-color:rgb(6, 65, 63);
+    background-color:rgb(168, 158, 177);
     height: 540px;
     width: 300px;
     max-width: 100vw;
-    border: 1px solid orange;
+    border: 1px solid black;
     margin: 10% auto;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 30px;
 }
 h3{
-    color: gold;
+    color:black;
 }
 p{
-    color: greenyellow;
+    color: black;
 }
 button{
-    background-color:orange;
-    border: 2px solid orange;
+    border: 2px solid orangered ;
     margin: 10px;
     padding: 10px;
     border-radius: 15px;
