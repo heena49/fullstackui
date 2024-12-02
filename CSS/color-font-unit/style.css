@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('./Adleit-Demo.ttf');
+
+
+
+
+body{
+    background-color: cornflowerblue;
+    /* background-image: linear-gradient(50deg, #ff0000 0%, #0000ff 100%);*/
+    background-image: radial-gradient(white,black,white,black,white,black,grey,grey);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    height: 100vh;
+    text-align: center;
+}
+
+#mydiv{
+    background-color: rgb(181, 110, 153);
+    height: 50vh; /*viewport height fit to screen*/
+    width: 25vw;  /*viewport width fit to screen*/
+}
+.box1{
+background-color: rgb(12, 178, 79);
+height: 2em;
+width: 2.5em;
+
+}
+ p{
+    text-transform:capitalize;
+     text-indent: 100px; /*where to start text from in a paragraph*/
+ }
+ h3{
+    text-align: center;
+    text-decoration: 5px wavy rgb(180, 10, 106) underline;
+    text-transform: lowercase;
+    text-shadow: 5px 6px rgb(180, 115, 10);
+ }
