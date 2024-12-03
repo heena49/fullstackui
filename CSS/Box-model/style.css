@@ -1,3 +1,11 @@
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8na3m1SwckKrNP5InpZX8gueh8w8qg3oJg&s');
+  height: 500px;
+}
+
+
+
+
 .heading{
     border: 5px double orangered; /* border-right: 5px double orangered; */
     border-bottom-left-radius: 20px;
