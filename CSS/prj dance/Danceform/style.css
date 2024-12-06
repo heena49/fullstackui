@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+div{
+    height: 400px;
+    width: 600px;
+    justify-content: center;
+    margin: 10% auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    
+}
+a{
+    color: rgb(125, 210, 234);
+
+}
+img{
+    height: 100%;
+    width: 70%;
+    align-self: center;
+    border: 5px solid white;
+
+}
+h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p{
+    
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 18px;
+
+}

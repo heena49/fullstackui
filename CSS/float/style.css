@@ -1,0 +1,15 @@
+body{
+    background-color: darkblue;
+}
+.img1{
+    float:right;
+}
+.img2{
+    float:left;
+}
+p{
+    font-size: 32px;
+    color: blueviolet;
+    clear: both;
+}
+/* how to "float clear" or both */
