@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    animation: jumping box 1s ease;
+    border-radius: 30px; 
+    /* opacity: 1; */
+    animation: falling-bubble 2s ease infinite alternate;
+}
+@keyframes falling-bubble {
+    0%{
+        
+    }
+    100% {
+        transform: translateX(100px) translateY(500px);
+        opacity: 0;
+    }
+
+    img:nth-child(2){
+        animation: delay 2s;
+    }
+}
