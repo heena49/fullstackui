@@ -4,15 +4,15 @@
 // let arr =[6,4,5,7,8]
 // arr.forEach((s) =>
 // {
-//     if(arr.indexOf(s) != 3)
+//     if(arr.indexOf(s) != 2)
 //     {
-//         console.log(s)
-//     }
+        // console.log(s)
+    // }
 // })
 
 //  print only number greater than 5 in given array
 
-let arr =[6,4,5,7,8]
+let arr =[2,6,4,5,7,8]
 arr.forEach((h) => {
     if (h >=5)
     {
@@ -33,7 +33,7 @@ else{
 
 //check whether given number is even or odd
 
-let num= 15;
+let num= 10;
 if (num % 2==0)
 {
     console.log("even")
@@ -70,9 +70,19 @@ else
     console.log("Hi,Student")
  }
 
+ let number=10
+ if (num > 0){
+	console.log('number is positive')
+ }
+ else if(number < 0){
+	console.log('number is negative')
+}
+else {
+	console.log("negative or positive")
+}
  // wap to print day of the week based on number of the week
 
- let v = 4;
+ let v = 2;
 switch (v) {
 	case 1:
 		console.log("Monday")
