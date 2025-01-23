@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(rgb(138, 179, 231),rgb(140, 136, 136));
+        }
+        .timer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 400px;
+            gap: 40px;
+            margin: 15% auto;
+            border: 1px solid rgb(145, 250, 145);
+        }
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .btn{
+            background-color:  rgb(184, 119, 167);
+            color: white;
+            border: 1px solid white ;
+        }
+    </style>
+</head>
+<body>
+    <div class="timer">
+        <h1><span id="num1">5</span>:<span id="num2">00</span>  </h1>
+        <div class="buttons">
+            <button class="btn" id="btn1">start</button>
+            <button class="btn" id="btn2">stop</button>
+            <button class="btn" id="btn3">reset</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
